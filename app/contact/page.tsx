@@ -16,7 +16,7 @@ const LOCATIONS = [
   'Serbia',
   'Croatia',
   'Italy',
-  'the rest of Europe',
+  'Worldwide',
 ]
 
 /* ── Detail row ──────────────────────────────────────────────────────────── */
