@@ -15,10 +15,11 @@ gsap.registerPlugin(ScrollTrigger, SplitText)
 const SERVICES = [
   {
     number:  '01',
-    title:   'Architecture',
+    title:   'Interior Design',
     image:   '/projects/Cappucinni/15.webp',
-    col1:    'From new constructions to considered renovations, we deliver architecture that responds to place, programme, and material culture. Our process is rigorous: analysis first, then form and detail developed in close dialogue with the client.',
-    col2:    'Every project is treated as a unique opportunity — to use materials honestly, to resolve proportion carefully, and to create spaces that endure. Our work spans residential, multi-residential, and hospitality typologies across Switzerland.',
+    col1:    'We create interiors that balance beauty with function, warmth with precision, and timelessness with contemporary living. Guided by Swiss craftsmanship and a Mediterranean sensitivity to light, our spaces emerge from a deep understanding of how people truly inhabit their environment.',
+    col2:    'Spatial planning, material selection, bespoke joinery, lighting strategy, and furniture curation are considered as part of a unified vision. Every detail contributes to a coherent and elevated final result. Our work spans private residences, apartments, villas, hospitality spaces, offices, and selected commercial environments across Switzerland.'
+
   },
   {
     number:  '02',
