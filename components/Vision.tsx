@@ -170,7 +170,7 @@ export default function Vision() {
                 top:          '50%',
                 left:         'var(--margin)',
                 transform:    'translateY(-50%)',
-                fontSize:     'clamp(5.6rem, 9.5vw, 13rem)',
+                fontSize:     'clamp(5rem, 9.5vw, 13rem)',
                 fontWeight:   700,
                 color:        '#ffffff',
                 lineHeight:   1,
