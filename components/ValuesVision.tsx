@@ -84,7 +84,8 @@ export default function ValuesVision() {
             className="grid-w"
             style={{
               paddingTop:    'calc(var(--margin) * 4)',
-              paddingBottom: i === ITEMS.length - 1 ? 'calc(var(--margin) * 5)' : 0,
+              paddingBottom: i === ITEMS.length - 1 ? 'calc(var(--margin) * 5)' : 'calc(var(--margin) * 4)',
+              borderBottom:  i < ITEMS.length - 1 ? '1px solid rgba(11,29,61,0.1)' : undefined,
             }}
           >
             <div className="col-span-full">
