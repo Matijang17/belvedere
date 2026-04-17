@@ -109,8 +109,8 @@ export default function ValuesVision() {
                 {String(i + 1).padStart(2, '0')}
               </div>
               <h3
-                className="body-36"
-                style={{ color: 'var(--color-navy)', fontWeight: 700, lineHeight: 1.1, marginBottom: '1.6rem' }}
+                className="body-48"
+                style={{ color: 'var(--color-navy)', fontWeight: 700, lineHeight: 1.05, marginBottom: '1.6rem' }}
               >
                 {item.title}
               </h3>
