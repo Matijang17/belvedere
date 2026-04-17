@@ -128,7 +128,7 @@ export default function ValuesVision() {
       {/* ── XL: GSAP-pinned cycling panel ─────────────────────────────── */}
       <section
         ref={sectionRef}
-        className="max-xl:hidden relative overflow-hidden"
+        className="hidden xl:block relative overflow-hidden"
         style={{ height: '100vh', background: 'var(--color-off-white)' }}
         data-bg="light"
         aria-label="Our Vision"
