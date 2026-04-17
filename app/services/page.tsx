@@ -23,17 +23,17 @@ const SERVICES = [
   },
   {
     number:  '02',
-    title:   'Interior Design',
+    title:   'Bespoke Design',
     image:   '/projects/Villa-corso/master kop 3.webp',
-    col1:    'We create interiors that balance beauty with function, warmth with precision. Guided by Swiss craft traditions and a Mediterranean eye for light, our interiors emerge from a deep understanding of how people actually inhabit space.',
-    col2:    'Material selection, bespoke joinery, lighting strategy, and art placement are considered as part of a unified vision. We work with trusted makers and artisans to produce environments that are quietly exceptional.',
+    col1:    'Custom elements form an integral part of our approach. Kitchens, wardrobes, storage systems, and integrated furnishings are designed specifically for each project — responding to proportion, functionality, and architectural clarity.',
+    col2:    'We collaborate with trusted artisans, makers, and specialist suppliers to deliver pieces that are both practical and quietly exceptional.',
   },
   {
     number:  '03',
     title:   'Project Consulting',
     image:   '/projects/Casino/Casino_laos_3.webp',
-    col1:    'For clients navigating complex development briefs, we offer end-to-end project consulting: site assessment, feasibility analysis, procurement strategy, contractor coordination, and on-site quality oversight.',
-    col2:    'Our role is to protect the integrity of the design through every stage of delivery — ensuring the precision of the drawing is carried into the precision of the build. We act as trusted advisors from inception to handover.',
+    col1:    'For clients undertaking renovations, fit-outs, or property transformations, we offer end-to-end project consulting: site evaluation, concept strategy, budgeting guidance, procurement, contractor coordination, and on-site quality control.',
+    col2:    'Our role is to protect the integrity of the design through every phase of delivery — ensuring the precision of the concept is carried through to the precision of the final space. We act as trusted advisors from first conversation to completion.',
   },
 ]
 
