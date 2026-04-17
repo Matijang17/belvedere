@@ -221,7 +221,7 @@ export default function ServicesPage() {
             </div>
             <div className="col-span-full md:col-start-7 md:col-end-13" style={{ marginTop: 'calc(var(--margin)*1.5)' }}>
               <p className="body-16 md:body-20" style={{ color: 'var(--color-navy)', opacity: 0.7, lineHeight: 1.85 }}>
-                Every project begins with listening. We immerse ourselves in the client&rsquo;s world — their habits, aspirations, and relationship to space — and from this understanding we build a design framework that is precise, personal, and enduring. We are a boutique practice: every project receives our full attention.
+                Every project begins with listening. We immerse ourselves in the client&rsquo;s world — their habits, aspirations, and relationship to space — and from this understanding we build a design framework that is precise, personal, and enduring. We are a boutique studio: every project receives our full attention.
               </p>
             </div>
           </div>

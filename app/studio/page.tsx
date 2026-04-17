@@ -184,7 +184,7 @@ export default function StudioPage() {
                 className="body-36 md:body-48 lg:body-60"
                 style={{ color: 'var(--color-navy)', fontWeight: 700, lineHeight: 1.12 }}
               >
-                Belvedere Properties SA is a Morcote,
+                Belvedere Properties SA is a Lugano,
                 Switzerland-based architecture &amp; interior design studio.
               </h1>
             </div>
@@ -215,15 +215,10 @@ export default function StudioPage() {
                 }}
               >
                 <p>
-                  We provide a boutique level of service and a hands-on approach.
-                  Underpinning all of our work is an understanding of context,
-                  client needs and user experience, so that spaces are meaningful
-                  and remain relevant over time.
+                  We provide a boutique level of service and a hands-on approach. Underpinning all of our work is an understanding of context, client needs, and the way people experience space — ensuring interiors are meaningful and remain relevant over time.
                 </p>
                 <p>
-                  With experience across residential, multi-residential, and
-                  hospitality typologies, we combine Swiss precision with
-                  Mediterranean sensibility — fusing craft with contemporary vision.
+                  With experience across private residences, apartments, villas, hospitality, and selected commercial projects, we combine Swiss precision with Mediterranean sensibility — fusing craftsmanship with contemporary vision.
                 </p>
               </div>
             </div>
