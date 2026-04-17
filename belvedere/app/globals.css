@@ -1,0 +1,266 @@
+@import "tailwindcss";
+
+/* ─── Metropolis ─────────────────────────────────────────────────────────── */
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ─── Fixed 10px root ────────────────────────────────────────────────────── */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  line-height: normal;
+}
+
+/* ─── Brand + layout tokens ─────────────────────────────────────────────── */
+:root {
+  /* Belvedere brand */
+  --color-navy:       #0b1d3d;
+  --color-champagne:  #c8ab86;
+  --color-off-white:  #f8f5f0;
+  --color-mist:       #cacfcb;
+  --color-white:      #ffffff;
+  --color-black:      #000000;
+
+  /* TC typography scale */
+  --text-12:  1.2rem;
+  --text-14:  1.4rem;
+  --text-16:  1.6rem;
+  --text-20:  2.0rem;
+  --text-24:  2.4rem;
+  --text-32:  3.2rem;
+  --text-36:  3.6rem;
+  --text-48:  4.8rem;
+  --text-60:  6.0rem;
+  --text-72:  7.2rem;
+  --text-100: 10.0rem;
+
+  /* TC easing */
+  --ease-out:   cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in:    cubic-bezier(0.4, 0, 1, 1);
+  --ease-alpha: cubic-bezier(0.25, 0.46, 0.45, 0.9);
+
+  /* TC transition durations */
+  --transition-duration-fast:   0.35s;
+  --transition-duration-normal: 0.45s;
+  --transition-duration-smooth: 0.70s;
+
+  /* Legacy aliases */
+  --dur-fast:   0.35s;
+  --dur-normal: 0.45s;
+  --dur-smooth: 0.70s;
+
+  /* TC z-index */
+  --z-header:     10;
+  --z-transition: 15;
+  --z-loader:     30;
+
+  /* Layout — mobile (6 cols) */
+  --margin:        1.6rem;
+  --gutter:        1rem;
+  --header-height: 5.2rem;
+  --vw:            100vw;
+
+  /* Font */
+  --font-body: "Metropolis", sans-serif;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --margin: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --margin: 4rem;
+    --gutter: 1.6rem;
+  }
+}
+
+/* ─── Tailwind v4 theme ─────────────────────────────────────────────────── */
+@theme inline {
+  --color-navy:       #0b1d3d;
+  --color-champagne:  #c8ab86;
+  --color-off-white:  #f8f5f0;
+  --color-mist:       #cacfcb;
+}
+
+/* ─── Base reset ─────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  font-family:  var(--font-body);
+  font-size:    var(--text-16);
+  line-height:  110%;
+  color:        var(--color-navy);
+  background:   var(--color-white);
+  -webkit-font-smoothing:  antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-navy);
+  color: var(--color-white);
+}
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: var(--color-white); }
+::-webkit-scrollbar-thumb { background: var(--color-navy); }
+
+/* ─── Grid wrapper — mirrors TC .grid-w ─────────────────────────────────── */
+.grid-w {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  column-gap: var(--gutter);
+  padding-inline: var(--margin);
+}
+@media (min-width: 768px) {
+  .grid-w { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+}
+
+/* ─── Typography helpers ────────────────────────────────────────────────── */
+.body-12  { font-size: 1.2rem; line-height: 120%; }
+.body-14  { font-size: 1.4rem; line-height: 120%; }
+.body-16  { font-size: 1.6rem; line-height: 110%; }
+.body-20  { font-size: 2.0rem; line-height: 130%; }
+.body-24  { font-size: 2.4rem; line-height: 110%; }
+.body-32  { font-size: 3.2rem; line-height: 110%; }
+.body-36  { font-size: 3.6rem; line-height: 110%; }
+.body-48  { font-size: 4.8rem; line-height: 110%; }
+.body-60  { font-size: 6.0rem; line-height: 110%; }
+.body-72  { font-size: 7.2rem; line-height: 100%; }
+.body-100 { font-size: 10rem;  line-height: 100%; }
+
+/* Responsive body helpers */
+@media (min-width: 768px) {
+  .md\:body-20  { font-size: 2.0rem; line-height: 130%; }
+  .md\:body-24  { font-size: 2.4rem; line-height: 110%; }
+  .md\:body-48  { font-size: 4.8rem; line-height: 110%; }
+  .md\:body-60  { font-size: 6.0rem; line-height: 110%; }
+  .md\:body-72  { font-size: 7.2rem; line-height: 100%; }
+}
+@media (min-width: 1280px) {
+  .xl\:body-48  { font-size: 4.8rem; line-height: 110%; }
+  .xl\:body-60  { font-size: 6.0rem; line-height: 110%; }
+  .xl\:body-72  { font-size: 7.2rem; line-height: 100%; }
+  .xl\:body-100 { font-size: 10rem;  line-height: 100%; }
+}
+
+/* ─── TC link-underline (two-line wipe) ─────────────────────────────────── */
+.link-underline {
+  position: relative;
+  cursor: pointer;
+}
+.link-underline::before,
+.link-underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+}
+.link-underline::before {
+  transform-origin: 100% 50%;
+  scale: 0 1;
+  transition: scale var(--dur-smooth) var(--ease-out);
+}
+.link-underline::after {
+  transform-origin: 0 50%;
+  transition: scale var(--dur-smooth) var(--ease-out) 0.15s;
+}
+@media (hover: hover) {
+  .link-underline:hover::before {
+    transform-origin: 0 50%;
+    scale: 1;
+    transition-delay: 0.15s;
+  }
+  .link-underline:hover::after {
+    transform-origin: 100% 50%;
+    scale: 0 1;
+    transition-delay: 0s;
+  }
+}
+
+/* White underline variant (footer) */
+.link-underline-footer { position: relative; cursor: pointer; }
+.link-underline-footer::before,
+.link-underline-footer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--color-white);
+}
+.link-underline-footer::before {
+  transform-origin: 100% 50%;
+  scale: 0 1;
+  transition: scale var(--dur-smooth) var(--ease-out);
+}
+.link-underline-footer::after {
+  transform-origin: 0 50%;
+  transition: scale var(--dur-smooth) var(--ease-out) 0.15s;
+}
+@media (hover: hover) {
+  .link-underline-footer:hover::before {
+    transform-origin: 0 50%;
+    scale: 1;
+    transition-delay: 0.15s;
+  }
+  .link-underline-footer:hover::after {
+    transform-origin: 100% 50%;
+    scale: 0 1;
+    transition-delay: 0s;
+  }
+}
+
+/* ─── Works gallery — image hover + button hover ────────────────────────── */
+.gallery-img {
+  transition: transform 0.9s cubic-bezier(0.23, 1, 0.32, 1);
+}
+@media (hover: hover) {
+  .gallery-img-link:hover .gallery-img {
+    transform: scale(1.06);
+  }
+  .gallery-btn:hover {
+    background: var(--color-navy);
+    color: var(--color-white) !important;
+  }
+}
+.gallery-btn {
+  transition:
+    background var(--dur-normal) var(--ease-out),
+    color      var(--dur-normal) var(--ease-out);
+}
+
+/* ─── Vision section button hover ───────────────────────────────────────── */
+.vision-btn {
+  transition:
+    background var(--dur-normal) var(--ease-out),
+    color      var(--dur-normal) var(--ease-out),
+    border-color var(--dur-normal) var(--ease-out);
+}
+@media (hover: hover) {
+  .vision-btn:hover {
+    background: rgba(255,255,255,0.12);
+    border-color: rgba(255,255,255,0.55) !important;
+  }
+}
+
+/* ─── Reduced motion ─────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
