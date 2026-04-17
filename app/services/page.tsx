@@ -206,7 +206,7 @@ export default function ServicesPage() {
                 className="body-36 md:body-48 lg:body-60"
                 style={{ color: 'var(--color-navy)', fontWeight: 700, lineHeight: 1.1 }}
               >
-                &ldquo;Architecture is not just building — it is the art of creating conditions for life to be lived with beauty and intention.&rdquo;
+                &ldquo;Interior design is not simply decoration — it is the art of shaping environments where life is lived with beauty, comfort, and intention.&rdquo;
               </h2>
             </div>
           </div>
