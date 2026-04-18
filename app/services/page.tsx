@@ -173,8 +173,8 @@ export default function ServicesPage() {
                 style={{ position: 'absolute', inset: '-8% 0', height: '116%' }}
               >
                 <Image
-                  src="/projects/Eda-center/3.webp"
-                  alt="Eda Center commercial development — architecture and design services — Belvedere Properties, Slovenia"
+                  src="/projects/Villa-corso/studio 3.webp"
+                  alt="Villa Corso,Italy — architecture and design services — Belvedere Properties, Italy"
                   fill
                   className="object-cover"
                   sizes="100vw"
