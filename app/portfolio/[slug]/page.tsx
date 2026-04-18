@@ -146,29 +146,17 @@ export default function ProjectPage() {
 
             {/* Tags row */}
             <div
-              className="col-span-full"
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(12, minmax(0,1fr))',
-                columnGap: 'var(--gutter)',
-                marginBottom: 'calc(var(--margin) * 3)',
-              }}
+              className="col-span-full grid grid-cols-2 md:grid-cols-4"
+              style={{ gap: '2rem var(--gutter)', marginBottom: 'calc(var(--margin) * 3)' }}
             >
               {[
                 { label: 'Client',   value: p.client   },
                 { label: 'Typology', value: p.typology },
                 { label: 'Year',     value: p.year     },
                 { label: 'Status',   value: p.status   },
-              ].map((tag, i) => (
-                <div
-                  key={tag.label}
-                  style={{
-                    gridColumn: i === 3 ? '10 / 13' : 'span 3',
-                    display: 'flex',
-                    gap: '2rem',
-                  }}
-                >
-                  <span className="body-14" style={{ color: 'var(--color-champagne)', flexShrink: 0 }}>
+              ].map((tag) => (
+                <div key={tag.label} style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', borderTop: '1px solid rgba(11,29,61,0.1)', paddingTop: '1.2rem' }}>
+                  <span className="body-12 uppercase" style={{ color: 'var(--color-champagne)', letterSpacing: '0.12em' }}>
                     {tag.label}
                   </span>
                   <span className="body-14" style={{ color: 'var(--color-navy)', opacity: 0.8 }}>
