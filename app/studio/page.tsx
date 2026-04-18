@@ -33,7 +33,7 @@ const TEAM = [
   {
     name:  'Djordje Jovic',
     role:  'Interior designer',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800',
+    image: '/team/djordje.webp',
   },
   {
     name:  'Danijela Gajanovic',
@@ -43,7 +43,7 @@ const TEAM = [
   {
     name:  'Tilen Cebohin',
     role:  'Creative wodworking',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800',
+    image: '/team/tilen.webp',
   },
 ]
 
