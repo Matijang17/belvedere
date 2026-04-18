@@ -23,7 +23,7 @@ const TEAM = [
   {
     name:  'Nika Simoniti Jenko',
     role:  'Office manager',
-    image: '/public/team/nika.webp',
+    image: '/team/nika.webp',
   },
   {
     name:  'Jelena Kovacevic',
