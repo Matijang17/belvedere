@@ -220,11 +220,13 @@ export const PROJECTS: Project[] = [
     description: 'A medical aesthetic clinic designed to convey clinical precision and genuine luxury simultaneously — a space where rigorous standards and considered hospitality coexist.',
     quote:       'Trust is built in the details — and clients feel them before they can name them.',
     aboutText:   'This beauty clinic in Slovenia required an interior that communicates the highest clinical standards while creating an experience that feels genuinely welcoming and premium. The spatial sequence moves from a warm, residential-feeling reception through increasingly private consultation and treatment zones. Materials were selected for both cleanability and visual warmth — honed stone surfaces, integrated cabinetry in soft lacquer, and carefully layered lighting that adapts to each stage of the client journey.',
-    stickyImage: 'https://images.unsplash.com/photo-1560472355-536de3962603?w=800',
-    largeImage:  'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200',
+    stickyImage: '/projects/Beauty-clinic/ARTISANA-09a.webp',
+    largeImage:  '/projects/Beauty-clinic/ARTISANA-08b.webp',
     gallery: [
-      'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=900',
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900',
+      '/projects/Beauty-clinic/ARTISANA-01a.webp',
+      '/projects/Beauty-clinic/ARTISANA-12a.webp',
+      '/projects/Beauty-clinic/ARTISANA-05a.webp',
+      '/projects/Beauty-clinic/ARTISANA-13a.webp',
     ],
   },
 ]
