@@ -242,7 +242,7 @@ export default function ServicesPage() {
             <div className="col-span-full md:col-span-6">
               <div className="relative w-full overflow-hidden" style={{ paddingTop: '105%' }}>
                 <Image
-                  src="/projects/Via-bellini_1/03a.webp"
+                  src="/projects/Via-bellini_1/03.webp"
                   alt="Interior design detail — Via Bellini apartment, Italy — Belvedere Properties"
                   fill
                   className="object-cover"
