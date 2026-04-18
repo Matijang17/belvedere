@@ -211,7 +211,7 @@ export const PROJECTS: Project[] = [
     title:       'Beauty Clinic',
     category:    'Commercial',
     year:        '2023',
-    image:       'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200',
+    image:       '/projects/beauty-clinic/123 Hiška - ARTISANA-02.webp',
     client:      'Private Client',
     typology:    'Medical & Wellness',
     status:      'Completed',
