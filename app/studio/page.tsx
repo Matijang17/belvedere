@@ -237,8 +237,8 @@ export default function StudioPage() {
                   style={{ position: 'absolute', inset: '-8% 0', height: '116%' }}
                 >
                   <Image
-                    src="/projects/Casino/Casino_laos_4.webp"
-                    alt="Belvedere Properties project — Casino interior, Laos"
+                    src="/projects/Villa-corso/studio 4.webp"
+                    alt="Belvedere Properties project — Villa corso, Italy"
                     fill
                     className="object-cover"
                     sizes="(max-width:768px)100vw,50vw"
