@@ -211,7 +211,7 @@ export const PROJECTS: Project[] = [
     title:       'Beauty Clinic',
     category:    'Commercial',
     year:        '2023',
-    image:       '/projects/beauty-clinic/ARTISANA-02.webp',
+    image:       '/projects/Beauty-clinic/ARTISANA-02.webp',
     client:      'Private Client',
     typology:    'Medical & Wellness',
     status:      'Completed',
