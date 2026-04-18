@@ -18,7 +18,7 @@ const TEAM = [
   {
     name:  'Maja Lozej',
     role:  'Founder & CEO',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800',
+    image: '/team/maja.webp',
   },
   {
     name:  'Nika Simoniti Jenko',
@@ -28,7 +28,7 @@ const TEAM = [
   {
     name:  'Jelena Kovacevic',
     role:  'Senior interior designer',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800',
+    image: '/team/jelena.webp',
   },
   {
     name:  'Djordje Jovic',
@@ -38,7 +38,7 @@ const TEAM = [
   {
     name:  'Danijela Gajanovic',
     role:  'Procurement',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800',
+    image: '/team/danijela.webp',
   },
   {
     name:  'Tilen Cebohin',
