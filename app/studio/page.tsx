@@ -184,8 +184,7 @@ export default function StudioPage() {
                 className="body-36 md:body-48 lg:body-60"
                 style={{ color: 'var(--color-navy)', fontWeight: 700, lineHeight: 1.12 }}
               >
-                Belvedere Properties SA is a Lugano,
-                Switzerland-based architecture &amp; interior design studio.
+                Belvedere Properties SA is a Lugano-based interior design and property development studio specialising in spatial transformation, bespoke interiors, and the enhancement of high-value properties.
               </h1>
             </div>
             <div
@@ -215,10 +214,10 @@ export default function StudioPage() {
                 }}
               >
                 <p>
-                  We provide a boutique level of service and a hands-on approach. Underpinning all of our work is an understanding of context, client needs, and the way people experience space — ensuring interiors are meaningful and remain relevant over time.
+                  We guide each project through every phase, integrating strategic vision, technical expertise, and hands-on project management. Our work spans interior design concept development, spatial planning and technical coordination, bespoke furniture and custom solutions, and the selection of premium materials, finishes, and furnishings.
                 </p>
                 <p>
-                  With experience across private residences, apartments, villas, hospitality, and selected commercial projects, we combine Swiss precision with Mediterranean sensibility — fusing craftsmanship with contemporary vision.
+                  Through a trusted network of craftsmen, manufacturers, and specialist partners, we ensure exceptional standards at every stage — across private residences, luxury villas, commercial interiors, hospitality environments, and investment development projects.
                 </p>
               </div>
             </div>
@@ -270,8 +269,7 @@ export default function StudioPage() {
               className="body-48 lg:body-72 inline"
               style={{ color: 'var(--color-navy)', fontWeight: 700, lineHeight: 1.1 }}
             >
-              &ldquo;Each project reflects the vision and precision of our designers,
-              turning ideas into spaces of lasting beauty and meaningful purpose.&rdquo;
+              &ldquo;Our objective is to create elegant, coherent, and timeless spaces that combine aesthetic quality with long-term value.&rdquo;
             </h2>
           </div>
         </div>

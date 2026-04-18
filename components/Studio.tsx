@@ -135,8 +135,8 @@ export default function Studio() {
           className="body-16"
           style={{ color: 'var(--color-navy)', opacity: 0.7, lineHeight: 1.85 }}
         >
-          Belvedere Properties SA is a Lugano-based interior design studio creating residential and commercial spaces shaped by clarity, atmosphere, and enduring quality.
-          We deliver a boutique level of service and a hands-on approach from concept through to completion.
+          Belvedere Properties SA is a Lugano-based interior design and property development studio specialising in spatial transformation, bespoke interiors, and the enhancement of high-value properties.
+          We guide each project through every phase, integrating strategic vision, technical expertise, and hands-on project management.
         </p>
       </div>
 
@@ -169,7 +169,7 @@ export default function Studio() {
             lineHeight: 1.1,
           }}
         >
-          Our work is underpinned by an understanding of context, client needs, and user experience, ensuring spaces feel considered, functional, and relevant over time.
+          Our objective is to create elegant, coherent, and timeless spaces that combine aesthetic quality with long-term value.
         </h2>
       </div>
 
@@ -196,7 +196,7 @@ export default function Studio() {
           className="body-16"
           style={{ color: 'var(--color-navy)', opacity: 0.65, lineHeight: 1.85, marginBottom: '2.8rem' }}
         >
-          We believe the human touch must remain central to design.
+          Through a trusted network of craftsmen, manufacturers, and specialist partners, we ensure exceptional standards at every stage.
         </p>
         <Link
           href="/studio"

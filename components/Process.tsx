@@ -5,13 +5,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const STEPS = [
-  { n: '01', label: 'Spatial Concept',                         img: '/projects/Cappucinni/6.webp',                           alt: 'Schematic design — Via Cappuccini apartment, Italy' },
-  { n: '02', label: 'Interior Design Development',             img: '/projects/Eda-center/4.webp',                            alt: 'Town planning — Eda Center development, Slovenia' },
-  { n: '03', label: 'Design Development',                      img: '/projects/Via-bellini_2/3 kuhinja c0002 (2).webp',       alt: 'Design development — Via Bellini II kitchen, Italy' },
-  { n: '04', label: 'Bespoke Joinery & Materials',             img: '/projects/Casino/Casino_laos_4.webp',                    alt: 'Project marketing — Casino interior, Laos' },
+  { n: '01', label: 'Analysis & Objectives',                   img: '/projects/Cappucinni/6.webp',                           alt: 'Schematic design — Via Cappuccini apartment, Italy' },
+  { n: '02', label: 'Design Concept',                          img: '/projects/Eda-center/4.webp',                            alt: 'Town planning — Eda Center development, Slovenia' },
+  { n: '03', label: 'Materials Development',                   img: '/projects/Via-bellini_2/3 kuhinja c0002 (2).webp',       alt: 'Design development — Via Bellini II kitchen, Italy' },
+  { n: '04', label: 'Interior & Furniture Planning',           img: '/projects/Casino/Casino_laos_4.webp',                    alt: 'Project marketing — Casino interior, Laos' },
   { n: '05', label: 'Technical Documentation',                 img: '/projects/My-Skin_bar/01.webp',                          alt: 'Interior design — My Skin Bar, Italy' },
   { n: '06', label: 'Project Coordination',                    img: '/projects/Eda-center/12.webp',                           alt: 'Construction documentation — Eda Center, Slovenia' },
-  { n: '07', label: 'Final Delivery',                          img: '/projects/belgrade-waterfront/soba A9.webp',             alt: 'Contract administration — Belgrade Waterfront residence, Serbia' },
+  { n: '07', label: 'Final Handover',                          img: '/projects/belgrade-waterfront/soba A9.webp',             alt: 'Contract administration — Belgrade Waterfront residence, Serbia' },
 ]
 
 export default function Process() {
@@ -158,7 +158,7 @@ export default function Process() {
         {/* Description */}
         <div className="col-span-4 md:col-span-7">
           <p className="body-14" style={{ color: 'rgba(11,29,61,0.62)', lineHeight: 1.8, maxWidth: '44rem' }}>
-            The scope of our Studio covers all stages of Interior Design and spatial transformation. We offer an end-to-end level of service, from initial concepts and design development through to execution and final completion.
+            Our structured process covers all stages of interior design and spatial transformation — from initial analysis and concept development through to technical documentation, coordination, and final handover.
           </p>
         </div>
 

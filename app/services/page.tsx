@@ -17,22 +17,22 @@ const SERVICES = [
     number:  '01',
     title:   'Interior Design',
     image:   '/projects/Cappucinni/15.webp',
-    col1:    'We create interiors that balance beauty with function, warmth with precision, and timelessness with contemporary living. Guided by Swiss craftsmanship and a Mediterranean sensitivity to light, our spaces emerge from a deep understanding of how people truly inhabit their environment.',
-    col2:    'Spatial planning, material selection, bespoke joinery, lighting strategy, and furniture curation are considered as part of a unified vision. Every detail contributes to a coherent and elevated final result. Our work spans private residences, apartments, villas, hospitality spaces, offices, and selected commercial environments across Switzerland.'
+    col1:    'Development of interior concepts, atmosphere studies, moodboards, layouts, and visualisations that define a clear and cohesive design direction. We work closely with each client to understand their needs, lifestyle, and aspirations.',
+    col2:    'Spatial planning, material selection, bespoke joinery, lighting strategy, and furniture curation are considered as part of a unified vision. Our work spans private residences, apartments, villas, hospitality spaces, offices, and selected commercial environments.'
 
   },
   {
     number:  '02',
-    title:   'Bespoke Design',
+    title:   'Bespoke Furniture',
     image:   '/projects/Villa-corso/master kop 3.webp',
-    col1:    'Custom elements form an integral part of our approach. Kitchens, wardrobes, storage systems, and integrated furnishings are designed specifically for each project — responding to proportion, functionality, and architectural clarity.',
-    col2:    'We collaborate with trusted artisans, makers, and specialist suppliers to deliver pieces that are both practical and quietly exceptional.',
+    col1:    'Design and development of tailored elements including kitchens, wardrobes and storage systems, integrated joinery, and custom solutions for residential and commercial spaces — each designed in response to spatial architecture, proportion, and material expression.',
+    col2:    'Production is carried out through a selected network of skilled craftsmen and specialist manufacturers, delivering pieces that are both highly functional and quietly exceptional.',
   },
   {
     number:  '03',
     title:   'Project Consulting',
     image:   '/projects/Casino/Casino_laos_3.webp',
-    col1:    'For clients undertaking renovations, fit-outs, or property transformations, we offer end-to-end project consulting: site evaluation, concept strategy, budgeting guidance, procurement, contractor coordination, and on-site quality control.',
+    col1:    'Management and coordination of suppliers, craftsmen, contractors, and delivery phases — ensuring every aspect of the project is executed with precision and on schedule. Strategic guidance for property enhancement, investment opportunities, renovations, and spatial repositioning.',
     col2:    'Our role is to protect the integrity of the design through every phase of delivery — ensuring the precision of the concept is carried through to the precision of the final space. We act as trusted advisors from first conversation to completion.',
   },
 ]
@@ -150,13 +150,12 @@ export default function ServicesPage() {
                 className="body-36 md:body-48 lg:body-60"
                 style={{ color: 'var(--color-navy)', fontWeight: 700, lineHeight: 1.12 }}
               >
-                Our work is defined by{' '}
-                <em>contextual response,</em>{' '}
-                deep{' '}
-                <em>client collaboration,</em>{' '}
-                <em>design precision,</em>{' '}
-                and a commitment to{' '}
-                <em>refined spatial experience.</em>
+                We offer a complete and integrated service for{' '}
+                <em>interior design,</em>{' '}
+                <em>spatial planning,</em>{' '}
+                <em>bespoke solutions,</em>{' '}
+                and the{' '}
+                <em>delivery of refined spaces.</em>
               </h1>
             </div>
           </div>
@@ -221,7 +220,7 @@ export default function ServicesPage() {
             </div>
             <div className="col-span-full md:col-start-7 md:col-end-13" style={{ marginTop: 'calc(var(--margin)*1.5)' }}>
               <p className="body-16 md:body-20" style={{ color: 'var(--color-navy)', opacity: 0.7, lineHeight: 1.85 }}>
-                Every project begins with listening. We immerse ourselves in the client&rsquo;s world — their habits, aspirations, and relationship to space — and from this understanding we build a design framework that is precise, personal, and enduring. We are a boutique studio: every project receives our full attention.
+                We work closely with private clients, investors, and project collaborators to deliver highly considered spaces. Our experience spans private residences, luxury villas, commercial interiors, hospitality environments, and investment development projects — every project receives our full attention.
               </p>
             </div>
           </div>
@@ -279,7 +278,7 @@ export default function ServicesPage() {
             </div>
             <div className="col-span-full md:col-start-10 md:col-end-13 flex items-end max-md:mt-[2rem]">
               <p className="body-14" style={{ color: 'var(--color-navy)', opacity: 0.55, lineHeight: 1.8 }}>
-                From the first sketch to final handover — our services are integrated, holistic, and designed for the demanding client.
+                From initial analysis through to final handover — our services are complete, integrated, and designed for the delivery of exceptional spaces.
               </p>
             </div>
           </div>

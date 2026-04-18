@@ -135,7 +135,7 @@ export default function Hero({ loaderDone }: { loaderDone: boolean }) {
           className="col-span-full md:col-start-7 xl:col-start-10 md:col-end-13 body-16 md:body-20"
           style={{ color: 'rgba(255,255,255,0.88)', lineHeight: 1.65 }}
         >
-          Driven by materiality. <br />Defined by interiors.
+          From concept to completion, every project is delivered with precision, discretion, and close attention to detail.
         </h1>
       </div>
 
