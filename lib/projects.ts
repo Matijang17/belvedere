@@ -318,7 +318,7 @@ export const PROJECTS: Project[] = [
     stickyImage: '/projects/Tasting-room/1.webp',
     largeImage:  '/projects/Tasting-room/10.webp',
     gallery: [
-      '/projects/Tasting-room/4.webp',
+      '/projects/Tasting-room/4a.webp',
       '/projects/Tasting-room/6.webp',
       '/projects/Tasting-room/18.webp',
       '/projects/Tasting-room/34.webp',
