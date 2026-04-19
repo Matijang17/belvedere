@@ -90,7 +90,15 @@ export default function Loader({ onComplete }: { onComplete: () => void }) {
     raf = requestAnimationFrame(tick)
 
     /* ── Timeline ─────────────────────────────────────────────────── */
-    const tl = gsap.timeline({ onComplete })
+    const tl = gsap.timeline({
+      onComplete: () => {
+        /* Hide panels instantly so the React unmount is invisible */
+        if (loaderRef.current) loaderRef.current.style.display = 'none'
+        if (panelRef.current)  panelRef.current.style.display  = 'none'
+        /* Defer to next frame — browser paints the hidden state first */
+        requestAnimationFrame(onComplete)
+      },
+    })
 
     // 1. Slide white panel away to reveal dark loader
     tl.to(panelRef.current, {
