@@ -153,7 +153,7 @@ export default function ContactPage() {
             {/* Desktop socials */}
             <div className="hidden xl:flex" style={{ gap: '2rem' }}>
               <a
-                href="https://www.instagram.com/belvedereproperties/"
+                href="#"
                 target="_blank"
                 rel="noopener"
                 className="link-underline body-14"
@@ -162,7 +162,7 @@ export default function ContactPage() {
                 Instagram,
               </a>
               <a
-                href="https://www.linkedin.com/company/belvedere-properties"
+                href="#"
                 target="_blank"
                 rel="noopener"
                 className="link-underline body-14"
