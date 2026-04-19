@@ -247,7 +247,7 @@ export const PROJECTS: Project[] = [
     stickyImage: '/projects/Viganello/penthouse dnevna 2c.webp',
     largeImage:  '/projects/Viganello/penthouse dnevna 3e – kopija.webp',
     gallery: [
-      '/projects/Viganello?penthouse master.wbp',
+      '/projects/Viganello/penthouse master.webp',
       '/projects/Viganello/penthouse dnevna 4a.webp',
       '/projects/Viganello/penthouse otroška 2b.webp',
       '/projects/Viganello/penthouse otroška f.webp',
