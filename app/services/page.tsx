@@ -288,8 +288,8 @@ export default function ServicesPage() {
             {SERVICES.map((svc, i) => (
               <div
                 key={i}
+                className="md:sticky"
                 style={{
-                  position: 'sticky',
                   top:       `calc(var(--header-height) + ${i * 72}px)`,
                   zIndex:    10 + i,
                   background: i === 0
