@@ -249,8 +249,8 @@ export const PROJECTS: Project[] = [
     gallery: [
       '/projects/Viganello/penthouse master.webp',
       '/projects/Viganello/penthouse dnevna 4a.webp',
-      '/projects/Viganello/penthouse otroška 2b.webp',
-      '/projects/Viganello/penthouse otroška f.webp',
+      '/projects/Viganello/penthouse otroska 2b.webp',
+      '/projects/Viganello/penthouse otroska f.webp',
     ],
   },
   {
