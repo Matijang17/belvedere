@@ -3,7 +3,7 @@
 import WorkItem from '@/components/WorkItem'
 import { PROJECTS } from '@/lib/projects'
 
-const FEATURED = PROJECTS.slice(0, 3)
+const FEATURED = PROJECTS.slice(2, 3)
 
 export default function Portfolio() {
   return (
