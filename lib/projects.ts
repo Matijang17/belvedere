@@ -33,7 +33,7 @@ export const PROJECTS: Project[] = [
     discipline:  'Architecture & Interior',
     description: 'A landmark mixed-use development set along the Sava riverfront, combining residential, retail, and public promenade into a single cohesive urban gesture.',
     quote:       'A waterfront is not a boundary — it is the city\'s most generous threshold.',
-    aboutText:   'Positioned along a key stretch of the Belgrade waterfront, this development reactivates a previously industrial edge with a layered programme of residences, ground-floor retail, and a continuous public promenade. The massing steps down toward the water, preserving view corridors from the city above while creating a new civic edge at river level. Materials respond to the industrial heritage of the site — exposed concrete, weathered steel, and textured brick — paired with warm timber in all inhabited spaces.',
+    aboutText:   'Located within the new Eden Building in Belgrade Waterfront, this project expresses a refined aesthetic inspired by luxury hospitality, responding to the client’s desire to recreate the feeling of an exclusive and sophisticated environment. Walnut, leather, and velvet define a rich material palette, elevated by marble surfaces and theatrical lighting, creating an elegant and balanced atmosphere.',
     stickyImage: '/projects/belgrade-waterfront/01 DNEVNA 3.webp',
     largeImage:  '/projects/belgrade-waterfront/soba B8.webp',
     gallery: [
@@ -57,7 +57,7 @@ export const PROJECTS: Project[] = [
     discipline:  'Architecture & Interior',
     description: 'A private villa that negotiates between the Italian landscape and a refined contemporary interior language, balancing openness and enclosure with precision.',
     quote:       'The villa as an instrument of light — each room a considered threshold between inside and out.',
-    aboutText:   'Villa Corso occupies a gently sloping site in northern Italy, oriented to capture long views across the surrounding countryside. The plan organises the programme around a central courtyard that draws light deep into the house and provides a sheltered outdoor room for daily life. All interior spaces were designed in close collaboration with the client — custom joinery, curated furniture, and bespoke lighting compose an environment that feels entirely singular.',
+    aboutText:   'Interior design project for an early 20th-century residence, entirely reimagined for contemporary living. The concept enhances proportion, light, and spatial continuity, creating fluid and scenographic interiors. Elegant living areas, a dedicated music room, and tailored circulation paths establish a coherent design language. The master suite integrates a refined bathroom and generous dressing room, while the two children’s bedrooms — both en suite — are designed around the needs of modern family life. Premium materials and light sculpt every detail.',
     stickyImage: '/projects/Villa-corso/master kop 2.webp',
     largeImage:  '/projects/Villa-corso/master kop 3.webp',
     gallery: [
@@ -81,7 +81,7 @@ export const PROJECTS: Project[] = [
     discipline:  'Interior Design',
     description: 'A boutique skincare studio designed to feel like a curated domestic space — intimate, refined, and entirely focused on the experience of care.',
     quote:       'Wellness begins with the environment — a space that calms before treatment even starts.',
-    aboutText:   'This project transforms a modest street-level unit into a premium skincare destination. The brief called for an environment that communicates expertise without clinical coldness. The result is a layered interior of pale stone, brushed brass, and soft upholstery — materials that read as tactile and considered. Treatment rooms are organised along a single corridor, each one a self-contained sensory environment with controlled lighting and acoustic privacy.',
+    aboutText:   'An organic and immersive design language where architecture and identity merge into a sensory spatial experience. Warm tones inspired by skin create an intimate and protective environment, while soft, continuous geometries remove any sense of rigidity. Niches, arches, and sculpted surfaces amplify depth and light, producing an almost tactile aesthetic. The project communicates care, delicacy, and wellbeing — translating the language of beauty into space.',
     stickyImage: '/projects/My-Skin_bar/04.webp',
     largeImage:  '/projects/My-Skin_bar/06.webp',
     gallery: [
@@ -104,7 +104,7 @@ export const PROJECTS: Project[] = [
     discipline:  'Architecture & Interior',
     description: 'A residential project in the heart of Malta that draws from the island\'s limestone building tradition while delivering a rigorously contemporary living environment.',
     quote:       'The Mediterranean vernacular offers no shortcuts — only a discipline that rewards patience.',
-    aboutText:   'Set in the established residential neighbourhood of San Gwann, this project involved the complete redesign and extension of an existing house. The project responds to the Maltese climate through deep shaded openings, cross-ventilation, and a material palette centred on local globigerina limestone. Interiors are calm and uncluttered, with custom furniture designed to work with the proportions of each room. A new rooftop terrace captures panoramic views across the island.',
+    aboutText:   'In the heart of San Ġwann, this apartment emerges from the meeting of practicality and atmosphere. The kitchen disappears behind a timber wall, allowing for a fluid environment that transforms naturally: living room and music studio coexist seamlessly. Softer light within the kitchen zone is paired with warm materials and muted tones. Every element is designed to optimise space, creating an interior that is intimate, elegant, and deeply personal.',
     stickyImage: '/projects/San_Gwann/soba 4.webp',
     largeImage:  '/projects/San_Gwann/kuhinja 2b.webp',
     gallery: [
@@ -126,7 +126,7 @@ export const PROJECTS: Project[] = [
     discipline:  'Interior Design',
     description: 'Two residential apartments on Via Bellini, each individually redesigned — one pursuing a minimal contemporary approach, the other a warmer Mediterranean palette — both sharing the same precision of craft.',
     quote:       'Two apartments, one philosophy — precision, warmth, and materials that age with grace.',
-    aboutText:   'Via Bellini presented two separate commissions within the same building — a rare opportunity to develop two distinct but related interior languages for neighbouring apartments. Apartment I pursues a stripped-back contemporary aesthetic: light stone surfaces, integrated joinery, and a restrained palette of white and natural timber. Apartment II takes a warmer direction — richer tones, textured plaster, and furniture with a stronger character. Both share the same commitment to resolved detail: every junction, every material transition, considered and precise.',
+    aboutText:   'Within an early 20th-century Central European building, the project reinterprets Art Nouveau style through a contemporary lens. Two apartment typologies were developed: more compact ground-floor units enhanced by mezzanines, and larger apartments with layouts completely reimagined for modern living. Warm materials, brass detailing, and sophisticated tones define elegant and functional interiors where historic architecture and contemporary comfort coexist in harmonious, fluid, and character-rich spaces.',
     stickyImage: '/projects/Via-bellini_1/00.webp',
     largeImage:  '/projects/Via-bellini_2/master 2b.webp',
     gallery: [
@@ -152,7 +152,7 @@ export const PROJECTS: Project[] = [
     discipline:  'Architecture & Interior',
     description: 'A carefully resolved apartment renovation on one of the city\'s most storied streets — a dialogue between inherited structure and new inhabitation.',
     quote:       'Restraint is not poverty of imagination — it is the highest form of precision.',
-    aboutText:   'Via Cappuccini is a residential renovation within a historic Italian building, working within strict conservation constraints to deliver a contemporary interior of genuine quality. Existing stone floors and ornate ceilings were retained and carefully restored, forming the backdrop for a new layer of bespoke joinery and curated furnishings. Every detail was resolved with the original architecture in mind — materials, junctions, and proportions all informed by what was already there.',
+    aboutText:   'Set within an early 20th-century building, the project redefines ten apartments through a complete renovation that updates the layouts for contemporary living. Generous ceiling heights allowed for the introduction of a raised floor system to integrate building services. Warm materials, seamless surfaces, and bespoke detailing engage with the original character of the building, inspired by the romantic elegance of Art Nouveau style.',
     stickyImage: '/projects/Cappucinni/6.webp',
     largeImage:  '/projects/Cappucinni/13a.webp',
     gallery: [
@@ -174,7 +174,7 @@ export const PROJECTS: Project[] = [
     discipline:  'Architecture & Interior',
     description: 'A hospitality and entertainment complex in Southeast Asia — an architecture of atmosphere, crafted to create immersive environments across a range of guest experiences.',
     quote:       'An interior that commands attention from first entry — every surface, every threshold considered.',
-    aboutText:   'This project in Laos presented a rare opportunity to design at scale for a hospitality programme across an entire new building. The architecture is bold in its massing and restrained in its detail — a composition of strong geometric volumes clad in local stone and timber, softened by landscape. The interiors develop a rich material language: lacquered joinery, textured plaster, custom lighting, and carefully specified furniture across gaming, dining, and lounge environments.',
+    aboutText:   'Keeping Eastern taste in mind — rich in gold, patterns, and symbolic references — we reinterpreted it through a European design language defined by elegant proportions and controlled lines. The project creates a contemporary vision of luxury, where luminous marble, warm timber, and metallic detailing interact with scenographic features such as the large circular bar and monumental aquarium, an iconic presence referencing the auspicious fish of Eastern tradition. Lighting, conceived as architecture, amplifies depth and atmosphere, defining a sophisticated and distinctive space.',
     stickyImage: '/projects/Casino/Casino_laos_1.webp',
     largeImage:  '/projects/Casino/Casino_laos_2.webp',
     gallery: [
@@ -197,7 +197,7 @@ export const PROJECTS: Project[] = [
     discipline:  'Architecture & Interior',
     description: 'A commercial centre in Slovenia conceived as a place of encounter — architecture that elevates the everyday retail and business experience through quality of space and material.',
     quote:       'Commerce can be dignified — architecture can make an ordinary errand feel considered.',
-    aboutText:   'The Eda Center brings together retail, office, and service programmes within a single coherent building. The design challenges the typical commercial typology by introducing generous public atrium spaces, natural light throughout, and a material palette well above the sector norm. Façade treatments vary by orientation to manage solar gain and visual interest, while the ground floor is designed with flexibility to accommodate a range of tenants without compromising the spatial quality of shared areas.',
+    aboutText:   'For this approximately 1,000 sqm headquarters within a new-generation tower, the project interprets the corporate workplace through a sophisticated and material-led lens. Continuous glazing and structural columns become ordering elements within a fluid and efficient layout. Glass partitions amplify natural light, while timber and three-dimensional volumes improve acoustic comfort and spatial perception. Bespoke furnishings and layered lighting define an elegance that is measured, contemporary, and representative.',
     stickyImage: '/projects/Eda-center/4.webp',
     largeImage:  '/projects/Eda-center/12.webp',
     gallery: [
@@ -219,7 +219,7 @@ export const PROJECTS: Project[] = [
     discipline:  'Interior Design',
     description: 'A medical aesthetic clinic designed to convey clinical precision and genuine luxury simultaneously — a space where rigorous standards and considered hospitality coexist.',
     quote:       'Trust is built in the details — and clients feel them before they can name them.',
-    aboutText:   'This beauty clinic in Slovenia required an interior that communicates the highest clinical standards while creating an experience that feels genuinely welcoming and premium. The spatial sequence moves from a warm, residential-feeling reception through increasingly private consultation and treatment zones. Materials were selected for both cleanability and visual warmth — honed stone surfaces, integrated cabinetry in soft lacquer, and carefully layered lighting that adapts to each stage of the client journey.',
+    aboutText:   'Located in Ljubljana, this beauty clinic is conceived as an elegant and measured space, where the language of the interior reflects the precision and harmony of aesthetic medicine. Large-format continuous surfaces define the interiors, paired with warm timber and soft finishes. Artistic and chromatic accents enrich the space, while diffused and calibrated lighting enhances volumes and materials, creating an atmosphere that is welcoming, controlled, and sophisticated.',
     stickyImage: '/projects/Beauty-clinic/ARTISANA-09a.webp',
     largeImage:  '/projects/Beauty-clinic/ARTISANA-08b.webp',
     gallery: [
