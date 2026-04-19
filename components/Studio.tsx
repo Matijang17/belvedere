@@ -102,7 +102,7 @@ export default function Studio() {
             >
               <div style={{ position: 'absolute', inset: 0 }}>
                 <Image
-                  src="/projects/Casino/Casino_laos_4.webp"
+                  src="/projects/Villa-corso/dnevna 5.webp"
                   alt="Belvedere Properties project — Casino interior, Laos"
                   fill
                   className="object-cover"
